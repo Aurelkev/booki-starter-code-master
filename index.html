@@ -16,27 +16,53 @@
 
 <body>
     <div class="main-container">
+        <nav>
+            <div class="flex_between">
+                <div><img src="images/logo/Booki@3x.png" alt="logo Booki"></div>
+                <div class="size_links flex_around">
+                    <div class="size_link border_nav">
+                        <a href="#hebergements">Hébergements</a>
+                    </div>
+                    <div class="size_link border_nav">
+                        <a href="#activites">Activités</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
         <header>
-            <img src="images/logo/Booki.png" alt="logo Booki">
-            <a href="#hebergements">Hébergements</a>
-            <a href="#activites">Activité</a>
+            <div>
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre-ville ou en pleine nature</p>
+            </div>
+            <section>
+                <div class="border_search flex_center">
+                    <div class="background_icon flex_center icon_size"><i class="location_color fa-solid fa-location-dot"></i></div>
+                    <div><input class="research flex_center border_none padding_search" type="search"
+                            placeholder="Marseille, France"></div>
+                    <div class="background_blue flex_center button_search">Rechercher</div>
+                </div>
+            </section>
+            <section class="filtre">
+                <h3>Filtres</h3>
+                <div>
+                    <i class="fa-solid fa-money-bill-wave">
+                        <h3>Economique</h3>
+                    </i>
+                    <i class="fa-solid fa-person">
+                        <h3>Familial</h3>
+                    </i>
+                    <i class="fa-solid fa-heart">
+                        <h3>Romantique</h3>
+                    </i>
+                    <i class="fa-solid fa-fire">
+                        <h3>Nos pépites</h3>
+                    </i>
+                </div>
+            </section>
+            <!-- <div> Info Plus de 500 logements sont disponible dans cette ville</div> -->
+            </section>
         </header>
         <main>
-            <section>
-                <div>
-                    <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-                    <p>En plein centre-ville ou en pleine nature</p>
-                </div>
-                <div class="topnav">
-                    <form method="get" action="">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <input type="text" placeholder="Marseille, France">
-                        <button type="button" class="button-search">Rechercher</button>
-                    </form>
-                </div>
-                <!-- <div>Filtre</div> -->
-                <!-- <div> Info Plus de 500 logements sont disponible dans cette ville</div> -->
-            </section>
             <div class="hebergements-and-populaires">
                 <section id="hebergements">
                     <div class="hebergements-title">

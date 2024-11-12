@@ -17,6 +17,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin-top: 0;
 }
 
 footer {
@@ -48,13 +49,15 @@ nav img {
     align-items: center;
 }
 
-.size_links {
+/* .size_links {
     width: 20%;
-}
+} */
 
 .size_link {
     width: 140px;
     height: 80px;
+    padding-top: 15px;
+    text-align: center;
 }
 
 .border_nav:hover {
@@ -272,6 +275,8 @@ a {
 
 .more {
     font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 0;
 }
 
 /****** Populaires ***********/

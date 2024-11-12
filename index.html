@@ -16,6 +16,7 @@
 
 <body>
     <div class="main-container">
+        <!-- Barre de navigation -->
         <nav>
             <div class="flex_between">
                 <div><img src="images/logo/Booki@3x.png" alt="logo Booki"></div>
@@ -29,39 +30,49 @@
                 </div>
             </div>
         </nav>
+        <!-- Header -->
         <header>
-            <div>
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre-ville ou en pleine nature</p>
-            </div>
             <section>
+                <div>
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p>En plein centre-ville ou en pleine nature</p>
+                </div>
+                <!-- Barre de recherche -->
                 <div class="border_search flex_center">
-                    <div class="background_icon flex_center icon_size"><i class="location_color fa-solid fa-location-dot"></i></div>
+                    <div class="background_icon flex_center icon_size"><i
+                            class="location_color fa-solid fa-location-dot"></i></div>
                     <div><input class="research flex_center border_none padding_search" type="search"
                             placeholder="Marseille, France"></div>
                     <div class="background_blue flex_center button_search">Rechercher</div>
                 </div>
             </section>
-            <section class="filtre">
-                <h3>Filtres</h3>
-                <div>
-                    <i class="fa-solid fa-money-bill-wave">
-                        <h3>Economique</h3>
-                    </i>
-                    <i class="fa-solid fa-person">
-                        <h3>Familial</h3>
-                    </i>
-                    <i class="fa-solid fa-heart">
-                        <h3>Romantique</h3>
-                    </i>
-                    <i class="fa-solid fa-fire">
-                        <h3>Nos pépites</h3>
-                    </i>
+            <!-- Filtre de recherche -->
+            <section class="filter margin_filter">
+                <div class="margin_filter_title">
+                    <h3>Filtres</h3>
+                </div>
+                <div class="flex_between filter_text_icons"><i
+                        class="filter_icons flex_center fa-solid fa-money-bill"></i>
+                    <div class="filter_text flex_center">Économique</div>
+                </div>
+                <div class="flex_between filter_text_icons"><i class="filter_icons flex_center fa-solid fa-person"></i>
+                    <div class="filter_text flex_center">Familial</div>
+                </div>
+                <div class="flex_between filter_text_icons"><i class="filter_icons flex_center fa-solid fa-heart"></i>
+                    <div class="filter_text flex_center">Romantique</div>
+                </div>
+                <div class="flex_between filter_text_icons"><i class="filter_icons flex_center fa-solid fa-fire"></i>
+                    <div class="filter_text flex_center">Nos pépites</div>
                 </div>
             </section>
-            <!-- <div> Info Plus de 500 logements sont disponible dans cette ville</div> -->
+            <!-- Information -->
+            <div class="info">
+                <div class="flex_center info_icon"><i class="fa-solid fa-xs fa-info"></i></div>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
             </section>
         </header>
+            <!-- Main -->
         <main>
             <div class="hebergements-and-populaires">
                 <section id="hebergements">

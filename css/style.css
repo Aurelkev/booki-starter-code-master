@@ -39,6 +39,10 @@ body {
     align-items: center;
 }
 
+/* nav */
+.size_nav {
+    height: 100px;
+}
 
 nav img {
     width: 61px;
@@ -50,6 +54,10 @@ nav img {
     height: 80px;
     padding-top: 15px;
     text-align: center;
+}
+
+.size_links {
+    width: 100%;
 }
 
 .border_nav {
@@ -102,59 +110,9 @@ a {
     color: var(--main-bg-color)
 }
 
-/* Filtre */
+/****** Header ********/
 
-.filter {
-    display: flex;
-    align-items: center;
-}
-
-.margin_filter {
-    margin-top: 50px;
-    margin-bottom: 40px;
-}
-
-.margin_filter_title {
-    margin-right: 20px;
-}
-
-.filter_text_icons {
-    border: 2px solid var(--main-bg-color);
-    height: 50px;
-    border-radius: 30px;
-    margin-right: 20px;
-}
-
-.filter_icons {
-    width: 52px;
-    height: 52px;
-}
-
-.filter_text {
-    height: 50px;
-    padding-right: 20px;
-    font-weight: bold;
-}
-
-.filter_text_icons:hover {
-    background-color: var(--filter-bg-color);
-}
-
-/* Information */
-.info {
-    display: flex;
-    align-items: center;
-}
-
-.info_icon {
-    width: 20px;
-    height: 20px;
-    border: 2px solid var(--main-bg-color);
-    border-radius: 25px;
-    margin-right: 5px;
-}
-
-/* Header */
+/* Barre de recherche */
 .border_search {
     width: 400px;
     border-radius: 10px;
@@ -203,6 +161,61 @@ a {
 .background_icon {
     background-color: var(--main-bg-color);
 }
+
+/* Filtre de recherche */
+
+.filter {
+    display: flex;
+    align-items: center;
+}
+
+.margin_filter {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.margin_filter_title {
+    margin-right: 20px;
+}
+
+.filter_text_icons {
+    border: 2px solid var(--main-bg-color);
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.filter_icons {
+    width: 52px;
+    height: 52px;
+}
+
+.filter_text {
+    height: 50px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.filter_text_icons:hover {
+    background-color: var(--filter-bg-color);
+}
+
+/* Information */
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.info_icon {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -375,6 +388,10 @@ footer {
     background-color: var(--footer-bg-color);
 }
 
+footer div {
+    margin-bottom: 15px;
+}
+
 .size_container_footer {
     height: 130px;
     width: 33%;
@@ -425,45 +442,7 @@ footer {
     /* ... */
 }
 
-/* topnav */
 
-/* Add a black background color to the top navigation bar */
-.topnav {
-    overflow: hidden;
-    background-color: white;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-
-/* Style the "i" element */
-.topnav i {
-    background-color: var(--filter-bg-color);
-    color: black;
-}
-
-/* Style the search box inside the navigation bar */
-.topnav input[type=text] {
-    float: center;
-    border: none;
-    font-size: 18px;
-    text-align: center;
-}
-
-.topnav button {
-    background-color: #0065FC;
-    color: white;
-    border: none;
-}
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {

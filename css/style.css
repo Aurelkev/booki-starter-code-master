@@ -495,18 +495,20 @@ footer div {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
     .margin_filter {
-        display : flex;
+        display: flex;
         flex-direction: column;
     }
+
     .margin_filter_title {
         width: 100%;
     }
-     
+
     .size_links {
-        display : flex;
+        display: flex;
         flex-direction: column;
-        
+
     }
 
     .img_logo {
@@ -515,16 +517,16 @@ footer div {
         margin: 20px;
         width: 100%;
     }
-    
-    .size_link{
+
+    .size_link {
         width: 100%;
     }
 
     .hebergements-cards {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        
     }
+
     .card-content {
         width: 100%;
     }
@@ -532,19 +534,25 @@ footer div {
     .populaires-cards {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-    
+
     }
 
     .bloc_activites {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
     .card_activite {
         width: 100%;
-
     }
+
     .img_activites {
         width: 100%;
+    }
+
+    .size_container_footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 

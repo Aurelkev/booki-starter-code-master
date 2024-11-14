@@ -19,7 +19,7 @@
         <!-- Barre de navigation -->
         <nav class="size_nav">
             <div class="size_links flex_between">
-                <div><img src="images/logo/Booki@3x.png" alt="logo Booki"></div>
+                <div class="img_logo"><img src="images/logo/Booki@3x.png" alt="logo Booki"></div>
                 <div class="flex_around">
                     <div class="size_link border_nav">
                         <a href="#hebergements">Hébergements</a>
@@ -41,9 +41,13 @@
                 <div class="border_search flex_center">
                     <div class="background_icon flex_center icon_size"><i
                             class="location_color fa-solid fa-location-dot"></i></div>
-                    <div><input class="research flex_center border_none padding_search" type="search"
+                    <div><input class="research flex_center border_none padding_search" type="text"
                             placeholder="Marseille, France"></div>
-                    <div class="background_blue flex_center button_search">Rechercher</div>
+                    <div class="rechercher"> <button
+                            class="background_blue flex_center button_search">Rechercher</button></div>
+                    <div class="loupe"> <button
+                            class="background_blue flex_center button_search_icon fa-solid fa-magnifying-glass"
+                            id="icon_search"></button> </div>
                 </div>
             </section>
             <!-- Filtre de recherche -->
@@ -51,18 +55,23 @@
                 <div class="margin_filter_title">
                     <h3>Filtres</h3>
                 </div>
-                <div class="flex_between filter_text_icons"><i
-                        class="filter_icons flex_center fa-solid fa-money-bill"></i>
-                    <div class="filter_text flex_center">Économique</div>
-                </div>
-                <div class="flex_between filter_text_icons"><i class="filter_icons flex_center fa-solid fa-person"></i>
-                    <div class="filter_text flex_center">Familial</div>
-                </div>
-                <div class="flex_between filter_text_icons"><i class="filter_icons flex_center fa-solid fa-heart"></i>
-                    <div class="filter_text flex_center">Romantique</div>
-                </div>
-                <div class="flex_between filter_text_icons"><i class="filter_icons flex_center fa-solid fa-fire"></i>
-                    <div class="filter_text flex_center">Nos pépites</div>
+                <div class="filter_container">
+                    <div class="flex_between filter_text_icons"><i
+                            class="filter_icons flex_center fa-solid fa-money-bill"></i>
+                        <div class="filter_text flex_center">Économique</div>
+                    </div>
+                    <div class="flex_between filter_text_icons"><i
+                            class="filter_icons flex_center fa-solid fa-person"></i>
+                        <div class="filter_text flex_center">Familial</div>
+                    </div>
+                    <div class="flex_between filter_text_icons"><i
+                            class="filter_icons flex_center fa-solid fa-heart"></i>
+                        <div class="filter_text flex_center">Romantique</div>
+                    </div>
+                    <div class="flex_between filter_text_icons"><i
+                            class="filter_icons flex_center fa-solid fa-fire"></i>
+                        <div class="filter_text flex_center">Nos pépites</div>
+                    </div>
                 </div>
             </section>
             <!-- Information -->
@@ -275,41 +284,41 @@
                     </div>
                 </section>
             </div>
-                <section id="activites">
-                    <div class="activites_title">
-                        <h2 class="section-title">Activités à Marseille</h2>
-                    </div>
-                    <div class="bloc_activites flex_between">
-                        <div class="card_activite">
-                            <div class="img_activites"><img src="images/activites/reno-laithienne.jpg" alt="Vieux-Port">
-                            </div>
-                            <div class="title_activite">
-                                <p>Vieux-port</p>
-                            </div>
+            <section id="activites">
+                <div class="activites_title">
+                    <h2 class="section-title">Activités à Marseille</h2>
+                </div>
+                <div class="bloc_activites flex_between">
+                    <div class="card_activite">
+                        <div class="img_activites"><img src="images/activites/reno-laithienne.jpg" alt="Vieux-Port">
                         </div>
-                        <div class="card_activite">
-                            <div class="img_activites"><img src="images/activites/paul-hermann.jpg"
-                                    alt="Fort de Pomègues"></div>
-                            <div class="title_activite">
-                                <p>Fort de Pomègues</p>
-                            </div>
-                        </div>
-                        <div class="card_activite">
-                            <div class="img_activites"><img src="images/activites/kilyan-sockalingum.jpg"
-                                    alt="Parc national des Calanques"></div>
-                            <div class="title_activite">
-                                <p>Parc national des Calanques</p>
-                            </div>
-                        </div>
-                        <div class="card_activite">
-                            <div class="img_activites"><img src="images/activites/florian-wehde.jpg"
-                                    alt="Notre-Dame-de-la-Garde"></div>
-                            <div class="title_activite">
-                                <p>Notre-Dame-de-la-Garde</p>
-                            </div>
+                        <div class="title_activite">
+                            <p>Vieux-port</p>
                         </div>
                     </div>
-                </section>
+                    <div class="card_activite">
+                        <div class="img_activites"><img src="images/activites/paul-hermann.jpg" alt="Fort de Pomègues">
+                        </div>
+                        <div class="title_activite">
+                            <p>Fort de Pomègues</p>
+                        </div>
+                    </div>
+                    <div class="card_activite">
+                        <div class="img_activites"><img src="images/activites/kilyan-sockalingum.jpg"
+                                alt="Parc national des Calanques"></div>
+                        <div class="title_activite">
+                            <p>Parc national des Calanques</p>
+                        </div>
+                    </div>
+                    <div class="card_activite">
+                        <div class="img_activites"><img src="images/activites/florian-wehde.jpg"
+                                alt="Notre-Dame-de-la-Garde"></div>
+                        <div class="title_activite">
+                            <p>Notre-Dame-de-la-Garde</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
         <!-- Footer -->
         <footer>

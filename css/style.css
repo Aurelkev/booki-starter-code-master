@@ -309,6 +309,13 @@ a {
     width: 32%;
 }
 
+.populaires-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 20px
+}
+
 .populaires-title {
     display: flex;
     justify-content: space-between;
@@ -426,18 +433,23 @@ footer div {
     }
 
     .hebergements-and-populaires {
+
         flex-direction: column;
         margin-right: 25px;
+        
     }
 
     .hebergements {
+      
         width: 100%;
         margin-bottom: 5px;
+        order: 2;
     }
 
     .populaires {
         width: 100%;
         margin-top: 50px;
+        order: 1;
     }
 
     .populaires-cards {

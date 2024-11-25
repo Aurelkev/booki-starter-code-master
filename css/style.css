@@ -172,6 +172,9 @@ a {
     font-weight: bold;
 }
 
+input::placeholder {
+    color: black;
+  }
 
 .background_icon {
     background-color: var(--main-bg-color);

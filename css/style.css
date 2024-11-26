@@ -50,6 +50,8 @@ body {
     height: 100px;
 }
 
+
+
 nav img {
     width: 61px;
     height: 19px;
@@ -417,6 +419,7 @@ input::placeholder {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+
 .img_activites {
     width: 100%;
     height: auto;
@@ -447,6 +450,7 @@ footer div {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    
     .loupe {
         display: none;
     }
@@ -475,12 +479,19 @@ footer div {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
-    html,
-    body {
+    .main-container {
         margin: 0;
         padding: 0;
     }
+    .flex_between_nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
+    .margin_small_device {
+        margin: 15px;
+    }
+    
     .loupe {
         display: none;
     }
@@ -540,6 +551,9 @@ footer div {
         width: 100%;
     }
 
+    .hebergements {
+        width: 100%;
+    }
     .hebergements-and-populaires section:nth-child(1) {
         background-color: transparent;
     }
@@ -564,12 +578,15 @@ footer div {
     }
 
     .card_activite {
-        flex-direction: column; /* Empile les cards verticalement */
-        align-items: stretch; /* Étire les cards pour qu'elles prennent toute la largeur */
+        flex-direction: column;
+        /* Empile les cards verticalement */
+        align-items: stretch;
+        /* Étire les cards pour qu'elles prennent toute la largeur */
     }
 
     .img_activites {
-        flex: 1 1 100%; /* Chaque card occupe 100% de la largeur */
+        flex: 1 1 100%;
+        /* Chaque card occupe 100% de la largeur */
         max-width: 100%;
     }
 

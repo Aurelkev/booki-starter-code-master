@@ -569,7 +569,7 @@ footer div {
     .img_logo {
         display: flex;
         justify-content: center;
-        margin: 20px;
+        margin: 20px 0 20px 0;
         width: 100%;
     }
 

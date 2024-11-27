@@ -268,7 +268,6 @@ input::placeholder {
 
 .hebergements-title {
     display: flex;
-    align-items: left;
 }
 
 .hebergements-cards {
@@ -383,6 +382,7 @@ input::placeholder {
 .activites_title {
     display: flex;
     align-items: left;
+    padding-bottom: 30px;
 }
 
 .flex_between_activite {
@@ -511,7 +511,9 @@ footer {
     .img_logo img {
         padding: 30px;
     }
-
+    header {
+        padding-top: 30px;
+    }
     .flex_between_nav {
         flex-direction: column;
         align-items: flex-start;

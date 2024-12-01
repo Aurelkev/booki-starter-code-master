@@ -169,6 +169,7 @@ a {
     border: none;
 }
 
+
 .research {
 
     height: 40px;
@@ -485,7 +486,9 @@ footer {
         margin-right: 25px;
     }
 
-
+    .filter {
+        display: grid;
+    }
 
     #hebergements {
         width: 100%;

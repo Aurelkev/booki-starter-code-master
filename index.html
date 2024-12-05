@@ -16,25 +16,27 @@
 
 
 <body>
-
-    <!-- Barre de navigation -->
-    <nav class="size-nav ">
-        <div class="size-links">
-            <div class="flex-between-nav">
-                <div class="img-logo"><img src="images/logo/Booki@3x.png" alt="logo Booki"></div>
-                <div class="link-nav flex-center">
-                    <div class="size-link border-nav">
-                        <a href="#hebergements">Hébergements</a>
-                    </div>
-                    <div class="size-link border-nav">
-                        <a href="#activites">Activités</a>
+    <!-- Header -->
+    <header>
+        <!-- Barre de navigation -->
+        <nav class="size-nav ">
+            <div class="size-links">
+                <div class="flex-between-nav">
+                    <div class="img-logo"><img src="images/logo/Booki@3x.png" alt="logo Booki"></div>
+                    <div class="link-nav flex-center">
+                        <div class="size-link border-nav">
+                            <a href="#hebergements">Hébergements</a>
+                        </div>
+                        <div class="size-link border-nav">
+                            <a href="#activites">Activités</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
-    <!-- Header -->
-    <header>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
         <section class="margin-small-device">
             <div>
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -43,7 +45,8 @@
             <!-- Barre de recherche -->
             <div class="border-search flex-center ">
                 <div class="background-icon flex-center icon-size"><i
-                        class="location-color fa-solid fa-location-dot"></i></div>
+                        class="location-color fa-solid fa-location-dot"></i>
+                </div>
                 <div><input class="research flex-center border-none text-align-search" type="text"
                         placeholder="Marseille, France"></div>
                 <div class="rechercher"> <button class="background-blue flex-center button-search">Rechercher</button>
@@ -79,10 +82,9 @@
             <div class="flex-center info-icon"><i class="fa-solid fa-xs fa-info"></i></div>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
-    </header>
-    <!-- Main -->
-    <main>
+        <!--Hébergement et populaires-->
         <div class="hebergements-and-populaires">
+            <!--Hébergement-->
             <section id="hebergements">
                 <div class="hebergements-title">
                     <h2 class="section-title">Hébergements à Marseille</h2>
@@ -214,6 +216,7 @@
                 </div>
 
             </section>
+            <!--Populaires-->
             <section class="populaires">
                 <div class="populaires-title">
                     <h2 class="section-title">Les plus populaires</h2>
@@ -283,6 +286,7 @@
                 </div>
             </section>
         </div>
+        <!--Activités-->
         <section id="activites">
             <div class="mobile-border-activite">
                 <div class="activites-title">
@@ -322,11 +326,7 @@
         </section>
     </main>
 
-
-
-
     <!-- Footer -->
-
     <footer>
         <div class="footer-mobile flex-footer">
             <div class="size-container-footer">

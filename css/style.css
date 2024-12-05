@@ -381,7 +381,6 @@ input::placeholder {
 
 .activites-title {
     display: flex;
-    align-items: left;
     padding-bottom: 30px;
 }
 

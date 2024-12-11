@@ -228,7 +228,7 @@ input::placeholder {
 }
 
 .filter-text-icons:hover {
-    background-color: red;
+    background-color: var(--filter-bg-color);
 }
 
 /* Information */

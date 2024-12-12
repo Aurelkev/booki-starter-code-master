@@ -17,6 +17,7 @@
 html {
     max-width: 1440px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 body {
@@ -24,7 +25,8 @@ body {
     flex-direction: column;
     justify-content: center;
     max-width: 1440px;
-    margin: 20px;
+    margin-left: 20px;
+    box-sizing: border-box;
 }
 
 
